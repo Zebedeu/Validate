@@ -1,0 +1,27 @@
+{
+    "name": "zebedeu/validate",
+    "type": "library",
+    "description": "Min class for valid formm in PHP 7.0.0 ou superior",
+    "keywords": [
+        "framwork",
+        "mvc"
+    ],
+    "homepage": "https://github.com/zebedeu/validate",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcio Zebede",
+            "email": "marciozebedeu@gmail.com",
+            "homepage": "http://artphoweb.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            Validate\\": "src/Validate/"
+        }
+    }
+}
